@@ -19,5 +19,4 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('clinical:simple-layout');
-  api.addFiles('simple-layout-tests.js');
 });
